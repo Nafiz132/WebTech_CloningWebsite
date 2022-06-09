@@ -1,0 +1,47 @@
+.doings {
+  text-align: center;
+  margin-top: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.do_p {
+  max-inline-size: 500px;
+  font-size: 18px;
+}
+
+.do_c {
+  display: flex;
+  justify-content: center;
+  color: white;
+  flex-direction: row;
+  gap: 20px;
+  padding: 0 380px;
+}
+
+.do_c div {
+  background: var(--color_primary);
+  min-height: 500px;
+  text-align: left;
+  padding: 60px 60px;
+}
+
+.do_c div p {
+  line-height: 1.75;
+  font-weight: lighter;
+  word-spacing: 1.5;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.do_c a {
+  border: 1px solid white;
+  font-size: 12px;
+}
+
+.do_c a:hover {
+  background: none;
+}
